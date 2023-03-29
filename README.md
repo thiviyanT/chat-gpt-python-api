@@ -3,6 +3,7 @@
 
 A simple script to get started with the OpenAI API to use the Chat-GPT model.
 
+![](images/chat-gpt-api.gif)
 
 Here are the steps to get started:
 1. Downloading OpenAI API:
