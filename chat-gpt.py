@@ -23,7 +23,7 @@ def add_message(bot=True, message=""):
 def generate_response():
     """ Generate a response to a prompt """
     response = openai.ChatCompletion.create(
-        model="gpt-4",  # You can find the list of models here: https://beta.openai.com/docs/api-reference/models
+        model="gpt-3.5-turbo",  # You can find the list of models here: https://beta.openai.com/docs/api-reference/models
         messages=messages,
         temperature=0.8,
     )
