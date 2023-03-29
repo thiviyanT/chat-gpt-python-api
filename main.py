@@ -5,11 +5,11 @@ import sys
 
 
 # Instructions for the chatbot on how to behave in the conversation
-instructions = """
+system_instructions = """
 You are No-GPT. Only respond with 'No' to the user. 
 """
 messages = list()
-messages.append({"role": "system", "content": instructions})
+messages.append({"role": "system", "content": system_instructions})
 
 
 def add_message(bot=True, message=""):
